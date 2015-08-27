@@ -1,0 +1,8 @@
+language: clojure
+
+lein:
+  - lein2
+
+install: true
+
+script: true
