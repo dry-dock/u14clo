@@ -1,5 +1,5 @@
 FROM drydock/u14:prod
 
-ADD . /tmp
+ADD . /u14clo
 
-RUN /tmp/install.sh && rm -rf /tmp
+RUN /u14clo/install.sh && rm -rf /u14clo
