@@ -1,10 +1,10 @@
 #!/bin/bash -e
 
 export BRANCH=master
-export IMAGE_NAME=drydock/u14pyt
+export IMAGE_NAME=drydock/u14clo
 export RES_DOCKER_CREDS=docker-creds
-export RES_REPO=u14pyt-repo
-export RES_IMAGE=u14pyt-img
+export RES_REPO=u14clo-repo
+export RES_IMAGE=u14clo-img
 export UP_IMAGE=u14-img
 
 findUpstreamBaseVersion() {
