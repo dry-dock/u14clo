@@ -8,3 +8,5 @@ Available clojure versions:
 2. 1.4.0
 3. 1.5.1
 4. 1.6.0
+5. 1.7.0
+6. 1.8.0

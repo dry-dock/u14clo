@@ -2,7 +2,9 @@
 
 # Install Clojure 1.6.0
 echo "================= Installing Clojure-1.6.0 ==================="
-sudo wget http://repo1.maven.org/maven2/org/clojure/clojure/1.6.0/clojure-1.6.0.zip
+export SHA1SUM=8816e74c20dcd5de8305aaebde7690331015b8f6
+sudo wget https://repo1.maven.org/maven2/org/clojure/clojure/1.6.0/clojure-1.6.0.zip
+echo "${SHA1SUM} clojure-1.6.0.zip" | sha1sum -c
 sudo unzip clojure-1.6.0.zip
 mkdir $HOME/lib && cp clojure-1.6.0/clojure-1.6.0.jar $HOME/lib
 sudo rm -rf clojure-1.6.0*
